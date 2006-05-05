@@ -1,5 +1,8 @@
 #! /bin/sh
 
-# Real hackers don't read docs
+# Real hackers don't read docs.
 #
 rm -rf /usr/share/doc/* /usr/share/man/* /usr/share/info/*
+echo "Purged by docpurge" >/usr/share/doc/README
+echo "Purged by docpurge" >/usr/share/man/README
+echo "Purged by docpurge" >/usr/share/info/README
