@@ -1,3 +1,9 @@
+docpurge (1.2) unstable; urgency=low
+
+  * Include postinst in svn so that it gets into the package, stupid.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 15 May 2006 19:56:05 +0300
+
 docpurge (1.1) unstable; urgency=low
 
   * Run docpurge from postinst.
