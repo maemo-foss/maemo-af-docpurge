@@ -1,3 +1,13 @@
+docpurge (1.3) unstable; urgency=low
+
+  * Do not include postinst, it is not good to remove files during
+    installation since the maintainer scripts of other packages might fail
+    when they don't find their files.  Added GPL statement to source.
+    Switched from debmake to debhelper.
+  * Fixes: NB#46705.
+  
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 13 Nov 2006 13:03:02 +0200
+
 docpurge (1.2) unstable; urgency=low
 
   * Include postinst in svn so that it gets into the package, stupid.
