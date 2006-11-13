@@ -2,7 +2,7 @@ Source: docpurge
 Section: admin
 Priority: optional
 Maintainer: Marius Vollmer <marius.vollmer@nokia.com>
-Build-Depends-Indep: debmake
+Build-Depends-Indep: debhelper
 Standards-Version: 3.5.10
 
 Package: docpurge
