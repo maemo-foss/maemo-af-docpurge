@@ -1,3 +1,12 @@
+docpurge (1.4) unstable; urgency=low
+
+  * Use Build-Depends instead of Build-Depends-Indep for debhelper since
+    it is required for the "clean" target.  Added compat file for
+    debhelper; install into debian/docpurge instead of debian/tmp.
+    (Thanks Lintian!)
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Wed, 15 Nov 2006 15:18:46 +0200
+
 docpurge (1.3) unstable; urgency=low
 
   * Do not include postinst, it is not good to remove files during
