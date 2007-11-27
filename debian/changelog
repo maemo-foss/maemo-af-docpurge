@@ -1,8 +1,8 @@
 docpurge (1.5) unstable; urgency=low
 
-  * Use find to find all the files instead of a shell glob.  The latter
-    might grow too large and cause wierd effects.  Fixes: NB#77023.
-    Thanks Grigori Timonen!
+  * Don't use shell globs to list the files to purge.  It might grow too
+    large and cause wierd effects.  Fixes: NB#77023.  Thanks Grigori
+    Timonen for pointing this out!
 
  -- Marius Vollmer <marius.vollmer@nokia.com>  Tue, 27 Nov 2007 14:35:08 +0200
 

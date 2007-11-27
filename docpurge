@@ -20,7 +20,10 @@
  
 # Real hackers don't read docs.
 #
-find /usr/share/doc/* /usr/share/man/* /usr/share/info/* -exec rm -rf {} \;
-echo "Purged by docpurge" >/usr/share/doc/README
-echo "Purged by docpurge" >/usr/share/man/README
-echo "Purged by docpurge" >/usr/share/info/README
+PURGE="/usr/share/doc/ /usr/share/man/ /usr/share/info/"
+
+for d in $PURGE; do
+  rm -rf $d
+  mkdir  $d
+  echo "Purged by docpurge" >$d/README
+done
