@@ -1,3 +1,11 @@
+docpurge (1.5) unstable; urgency=low
+
+  * Use find to find all the files instead of a shell glob.  The latter
+    might grow too large and cause wierd effects.  Fixes: NB#77023.
+    Thanks Grigori Timonen!
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Tue, 27 Nov 2007 14:35:08 +0200
+
 docpurge (1.4) unstable; urgency=low
 
   * Use Build-Depends instead of Build-Depends-Indep for debhelper since
