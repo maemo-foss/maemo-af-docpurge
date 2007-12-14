@@ -1,45 +1,6 @@
-docpurge (1.5) unstable; urgency=low
-
-  * Don't use shell globs to list the files to purge.  It might grow too
-    large and cause wierd effects.  Fixes: NB#77023.  Thanks Grigori
-    Timonen for pointing this out!
-
- -- Marius Vollmer <marius.vollmer@nokia.com>  Tue, 27 Nov 2007 14:35:08 +0200
-
-docpurge (1.4) unstable; urgency=low
-
-  * Use Build-Depends instead of Build-Depends-Indep for debhelper since
-    it is required for the "clean" target.  Added compat file for
-    debhelper; install into debian/docpurge instead of debian/tmp.
-    (Thanks Lintian!)
-
- -- Marius Vollmer <marius.vollmer@nokia.com>  Wed, 15 Nov 2006 15:18:46 +0200
-
-docpurge (1.3) unstable; urgency=low
-
-  * Do not include postinst, it is not good to remove files during
-    installation since the maintainer scripts of other packages might fail
-    when they don't find their files.  Added GPL statement to source.
-    Switched from debmake to debhelper.
-  * Fixes: NB#46705.
-  
- -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 13 Nov 2006 13:03:02 +0200
-
-docpurge (1.2) unstable; urgency=low
-
-  * Include postinst in svn so that it gets into the package, stupid.
-
- -- Marius Vollmer <marius.vollmer@nokia.com>  Mon, 15 May 2006 19:56:05 +0300
-
-docpurge (1.1) unstable; urgency=low
-
-  * Run docpurge from postinst.
-
- -- Marius Vollmer <marius.vollmer@nokia.com>  Fri,  5 May 2006 18:21:28 +0300
-
-docpurge (1.0) unstable; urgency=low
+ssu-tools (0.0) unstable; urgency=low
 
   * New.
 
- -- Marius Vollmer <marius.vollmer@nokia.com>  Fri,  5 May 2006 16:44:18 +0300
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Fri, 14 Dec 2007 18:26:22 +0200
 

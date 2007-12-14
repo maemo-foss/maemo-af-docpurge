@@ -1,15 +1,10 @@
-Source: docpurge
+Source: ssu-tools
 Section: admin
 Priority: optional
 Maintainer: Marius Vollmer <marius.vollmer@nokia.com>
 Build-Depends: debhelper
 Standards-Version: 3.5.10
 
-Package: docpurge
+Package: ssu-tools
 Architecture: all
-Depends: dpkg (>= 1.9.7)
-Description: Automatically remove unwanted documentation
- Installing this package will add a hook to apt so that all of
- /usr/share/{doc,man,info} will be removed after every invocation of
- dpkg (by apt).  It also includes the command /usr/sbin/docpurge that
- can be called manually to perform the cleaning.
+Description: Tools related to Seamless Software Updates
