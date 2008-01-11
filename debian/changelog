@@ -1,4 +1,10 @@
-ssu-tools (0.0) unstable; urgency=low
+docpurge (1.6) unstable; urgency=low
+
+  * Removed debian/conffiles, it is not needed.  Thanks Lintian!
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Fri, 11 Jan 2008 10:42:49 +0200
+
+docpurge (1.5) unstable; urgency=low
 
   * New.
 
