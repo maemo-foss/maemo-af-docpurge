@@ -22,8 +22,10 @@
 #
 PURGE="/usr/share/doc/ /usr/share/man/ /usr/share/info/"
 
-for d in $PURGE; do
-  rm -rf $d
-  mkdir  $d
-  echo "Purged by docpurge" >$d/README
+for fs in "" "/opt/maemo"; do
+  for d in $PURGE; do
+    rm -rf $fs$d
+    mkdir  $fs$d
+    echo "Purged by docpurge" >$fs$d/README
+  done
 done
