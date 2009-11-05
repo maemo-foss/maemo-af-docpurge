@@ -1,3 +1,10 @@
+docpurge (1.7) unstable; urgency=low
+
+  [ Víctor Jáquez ]
+  * Fixes: NB#144008 - docpurge is not aware of /opt
+
+ -- Víctor Manuel Jáquez Leal <vjaquez@igalia.com>  Thu, 05 Nov 2009 13:15:41 +0100
+
 docpurge (1.6) unstable; urgency=low
 
   * Removed debian/conffiles, it is not needed.  Thanks Lintian!
