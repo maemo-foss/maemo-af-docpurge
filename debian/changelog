@@ -1,3 +1,9 @@
+docpurge (1.7-1) unstable; urgency=low
+
+  * Release 1.7-1
+
+ -- Víctor Manuel Jáquez Leal <vjaquez@igalia.com>  Thu, 05 Nov 2009 15:55:00 +0100
+
 docpurge (1.7) unstable; urgency=low
 
   [ Víctor Jáquez ]
