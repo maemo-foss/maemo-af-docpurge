@@ -1,6 +1,6 @@
 This is docpurge.  Installing this package will add a hook to apt so
-that all of /usr/share/{doc,man,info} will be removed after every
-invocation of dpkg (by apt).  It also includes the command
+that all of {/,/opt/maemo/}usr/share/{doc,man,info} will be removed
+after every invocation of dpkg (by apt).  It also includes the command
 /usr/sbin/docpurge that can be called manually to perform the
 cleaning.  In addition, /usr/sbin/docpurge is executed automatically
 when the docpurge package is installed.
