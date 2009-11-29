@@ -7,7 +7,7 @@ Standards-Version: 3.5.10
 
 Package: docpurge
 Architecture: all
-Depends: dpkg (>= 1.9.7)
+Conflicts: dpkg (<< 1.version.with.filters)
 Description: Automatically remove unwanted documentation
  Installing this package will add a hook to apt so that all of
  /usr/share/{doc,man,info} will be removed after every invocation of
