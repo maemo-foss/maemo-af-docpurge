@@ -7,3 +7,5 @@ install:
 	install -m 755 docpurge $(DESTDIR)/usr/sbin/docpurge
 	install -d $(DESTDIR)/etc/apt/apt.conf.d
 	install -m 644 99-docpurge $(DESTDIR)/etc/apt/apt.conf.d/99-docpurge
+	install -d $(DESTDIR)/etc/dpkg/dpkg.cfg.d
+	install -m 644 00-docpurge.dpkg $(DESTDIR)/etc/dpkg/dpkg.cfg.d/00-docpurge

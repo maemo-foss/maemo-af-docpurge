@@ -1,0 +1,7 @@
+# Real hackers don't read docs.
+filter /usr/share/doc/
+filter /usr/share/man/
+filter /usr/share/info/
+filter /opt/maemo/usr/share/doc/
+filter /opt/maemo/usr/share/man/
+filter /opt/maemo/usr/share/info/
